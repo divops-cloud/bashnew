@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "CommonJS",
+    "target": "es2018",
+    "esModuleInterop": true,
+    "lib": [
+      "esnext"
+    ],
+    "outDir": "../dist",
+    "sourceMap": true,
+    "declaration": true
+  },
+  "include": [
+    "**/*.{ts,tsx,js,jsx,sh}"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
